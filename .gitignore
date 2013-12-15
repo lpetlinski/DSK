@@ -1,4 +1,5 @@
-/AwesomeMvcDemo/*.suo
+**/**/bin
+**/**/obj
 
-/AwesomeMvcDemo/AwesomeMvcDemo/bin
-/AwesomeMvcDemo/AwesomeMvcDemo/obj
+/AwesomeMvcDemo/*.suo
+/AwesomeMvcDemo/TestResults

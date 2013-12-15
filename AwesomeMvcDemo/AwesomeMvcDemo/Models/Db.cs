@@ -66,14 +66,14 @@ namespace AwesomeMvcDemo.Models
 
         static Db()
         {
-            Insert(new Category { Name = "Fruits" });
-            Insert(new Category { Name = "Legumes" });
-            Insert(new Category { Name = "Vegetables" });
-            Insert(new Category { Name = "Nuts" });
-            Insert(new Category { Name = "Grains" });
+            Insert(new Category { Name = "Fruits" }); // ID 153
+            Insert(new Category { Name = "Legumes" }); // ID 155
+            Insert(new Category { Name = "Vegetables" }); // ID 157
+            Insert(new Category { Name = "Nuts" }); // ID 159
+            Insert(new Category { Name = "Grains" }); // ID 161
 
-            Insert(new Meal { Name = "Mango", Category = Categories[0], Description = "The mango is a fleshy stone fruit belonging to the genus Mangifera" });
-            Insert(new Meal { Name = "Apple", Category = Categories[0], Description = "The apple is the pomaceous fruit of the apple tree" });
+            Insert(new Meal { Name = "Mango", Category = Categories[0], Description = "The mango is a fleshy stone fruit belonging to the genus Mangifera" }); // ID 163
+            Insert(new Meal { Name = "Apple", Category = Categories[0], Description = "The apple is the pomaceous fruit of the apple tree" }); // ID 165
             Insert(new Meal { Name = "Papaya", Category = Categories[0], Description = "The papaya is a large tree-like plant, with a single stem growing from 5 to 10 metres" });
             Insert(new Meal { Name = "Banana", Category = Categories[0], Description = "Bananas come in a variety of sizes and colors when ripe, including yellow, purple, and red." });
             Insert(new Meal { Name = "Cherry", Category = Categories[0], Description = "The cherry is the fruit of many plants of the genus Prunus, and is a fleshy stone fruit" });
